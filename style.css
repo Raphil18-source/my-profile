@@ -1,0 +1,106 @@
+ /*Colors and font*/
+
+/*coulours possibles pour le background:
+rgb(55,18,115)
+rgb(23,69,168)
+couleurs possibles pour titres:
+rgb(230,15,5)*/
+
+
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+/*
+.noto-serif-<uniquifier> {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+.kanit-semibold {
+  font-family: "Kanit", sans-serif;
+  font-weight: <weight(400/500/600/800)>;
+  font-style: <normal/italic>;
+}
+*/
+
+
+div.whole {
+width: 700px
+padding: 25px 100px;
+}
+
+div{
+padding: 25px;
+margin: 25px;
+border: red 10px;
+}
+
+body {
+background-color: rgb(230,230,230);
+color: rgb(55,18,115);
+font-family: "Noto Serif", serif;
+font-size: 17px;
+font-weight: normal;
+line-height: ;
+letter-spacing: ;
+}
+
+
+h1{
+color: rgb(230,15,5);
+font-family: "Kanit", sans-serif;
+font-size: 32px
+font-weight: 600;
+letter-spacing: 2px;
+text-transform: uppercase;
+}
+
+h2{color: rgb(55,18,115);
+font-family: "Kanit", sans-serif;
+font-size: 24px
+font-weight: bold;
+}
+
+a{text-decoration-line: underline;
+color: rgb(0, 0, 0);
+font-weight: bold;
+}
+a:hover{
+color: purple;
+}
+
+
+/*for unique design: id=""
+re-usable design: class=""
+ */
+
+img{
+border-radius: 50%;
+width: 100px;
+}
+
+.container{
+text-align: center;
+background: white;                         /* White background */
+padding: 30px;                             /* Internal space */
+border-radius: 4px;                        /* Small radius */
+box-shadow: 0 10px 30px rgba(0,0,0,.1);    /* Light shadow */
+}
+
+@media (max-width:500px) {
+ .container {
+  width: 400px;
+ }
+}
+
+@media (max-width:760px) {
+ .container {
+  width: 600px;
+ }
+}
